@@ -1,0 +1,53 @@
+.inputBase:hover{
+  cursor: pointer;
+}
+
+.button{
+  border: none;
+  color: whitesmoke;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  margin: 10px;
+}
+
+.loginButton {
+  background-color: lightblue; /* Green */
+  color: black;
+}
+
+.addButton{
+  background-color: green; /* Green */
+  cursor: pointer;
+}
+
+.session{
+  border: whitesmoke;
+  border-style: solid;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+.session:hover{
+  background-color: whitesmoke;
+  color: black;
+}
+
+.sessionName{
+  padding: 5px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+
+.sessionTitle{
+  border-bottom: thin;
+  border-bottom-style: dashed;
+  border-width: thin;
+}
